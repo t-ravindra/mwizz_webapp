@@ -6,13 +6,9 @@ class Home extends Component {
   render() {
     return (
     <div className="App">
-      <h1>Project Home</h1>
+      <h1>mWizz</h1>
       {/* Link to List.js */}
-      <Link to={'./list'}>
-        <button variant="raised">
-            My List
-        </button>
-      </Link>
+      <iframe src="http://localhost:5601/app/dashboards#/view/c5dad980-c8c5-11ed-9d11-e58279c99798?embed=true&_g=(refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(viewMode:view)" position="relative" height="1000" width="100%"></iframe>
     </div>
     );
   }
